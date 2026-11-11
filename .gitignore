@@ -1,0 +1,40 @@
+# Sensitive configuration files
+/config/database.php
+/config/mail.php
+.env
+.env.*
+!.env.example
+
+# Composer dependencies
+/vendor/
+
+# Node dependencies
+/node_modules/
+
+# Logs
+*.log
+/logs/
+
+# Temporary and cache files
+/tmp/
+/cache/
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backups
+*.bak
+*.old
+*.backup
+
+# Local development files
+/php_error_log
+error_log
